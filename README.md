@@ -1,4 +1,4 @@
-# Cheaper Plz
+# cheaper plz
 Chrome Extension for saving $$$.
 
 ## Credits
