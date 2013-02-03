@@ -6,3 +6,24 @@ path {
   stroke-width: 1;
   fill: none;
 }
+
+.brand {
+  font-family: "Finger Paint", cursive;
+}
+
+/* override font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar .brand,
+.navbar .nav > li > a,
+.navbar .navbar-text,
+.navbar .dropdown-menu a,
+div.subnav,
+.btn,
+legend {
+  font-family: "Text Me One", sans-serif;
+}

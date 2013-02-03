@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Cheaper Plz!</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Finger+Paint">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Text+Me+One">
     <link rel="stylesheet" href="styles/themed-bootstrap.css">
     <link rel="stylesheet" href="styles/main.css">
 
@@ -18,7 +20,7 @@
     <div ng-controller="MainCtrl" class="container">
 
       <div class="row">
-        <h1>Cheaper Plz!</h1>
+        <h1 class="brand">cheaper plz.</h1>
       </div>
 
       <hr class="row">
@@ -42,7 +44,7 @@
         <div class="span12">
           <div class="row">
             <div class="span3">
-              <h2>{{item.price}}</h2>
+              <h2>${{item.price}}</h2>
             </div>
             <div class="span9">
               <h4>name</h4>
