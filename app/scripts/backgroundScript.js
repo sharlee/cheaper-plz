@@ -74,12 +74,7 @@ window.refresh = function (cb) {
           items[i].price = updatedItem.price;
         }
         history[item.url] =  history[item.url] || [];
-        /*
-        history[item.url].push({
-          price: item.price,
-          time: Date.now()
-        });
-        */
+        item.updated = Date.now();
         history[item.url].push(item.price);
       }
       toProc -= 1;
