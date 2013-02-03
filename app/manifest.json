@@ -1,5 +1,5 @@
 {
-  "name": "Cheaper Please",
+  "name": "cheaper plz",
   "version": "1",
   "manifest_version": 2,
   "description": "Price search, price alerts. Save $$$",
@@ -13,7 +13,7 @@
     "default_icon": {
       "19": "icon-16.png"
     },
-    "default_title": "Cheaper Plz",
+    "default_title": "cheaper plz",
     "default_popup": "popup.html"
   },
   

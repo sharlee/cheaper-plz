@@ -26,10 +26,6 @@ angular.module('cheaperApp', []).
         });
       };
 
-      $scope.data = [3, 6, 2, 7, 5, 2, 1, 3, 8, 9, 2, 5, 9, 3, 6, 3, 6, 2, 7, 5, 2, 1];
-
-      $scope.addData = function () {
-        $scope.data.push(4);
-      };
+      $scope.history = chromeApp.getHistory();
 
     });

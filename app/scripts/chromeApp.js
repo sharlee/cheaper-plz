@@ -1,3 +1,6 @@
+/*global angular:false, chrome:false*/
+'use strict';
+
 angular.module('cheaperApp')
   .factory('chromeApp', function ($rootScope) {
 
@@ -40,6 +43,10 @@ angular.module('cheaperApp')
 
       setItems: function (value) {
         chrome.extension.getBackgroundPage().store = value;
+      },
+
+      getHistory: function () {
+        return chrome.extension.getBackgroundPage().history;
       },
 
       openTab: function () {
